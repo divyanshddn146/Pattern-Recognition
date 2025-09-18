@@ -37,6 +37,22 @@ This lab explored **dimensionality reduction, classification, and deep learning 
 
 ---
 
+## 📌 **Part 3.3 – DAWNBench Challenge (CIFAR-10)**
+
+Implemented ResNet-18 in TensorFlow/Keras with:
+
+Mixed precision training (FP16 on GPUs)
+
+RandAugment data augmentation
+
+Warmup + Cosine learning rate schedule
+
+AdamW optimizer with EMA (Exponential Moving Average)
+
+Achieved ~94% test accuracy on CIFAR-10 meeting DAWNBench standards.
+
+---
+
 ## 📌 Part 4 – Recognition (Custom Project)
 
 * Implemented a **Variational Autoencoder (VAE)** on **OASIS brain MRI slices**.
