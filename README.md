@@ -53,7 +53,7 @@ Achieved ~94% test accuracy on CIFAR-10 meeting DAWNBench standards.
 
 ---
 
-## 📌 Part 4 – Recognition (Custom Project)
+## 📌 Part 4.1 – Recognition (Custom Project)
 
 * Implemented a **Variational Autoencoder (VAE)** on **OASIS brain MRI slices**.
 * Encoder–Decoder architecture with latent space sampling (`μ`, `logσ²`, reparameterization trick).
@@ -62,6 +62,20 @@ Achieved ~94% test accuracy on CIFAR-10 meeting DAWNBench standards.
 * Generated new MRI-like samples by sampling from latent space.
 
 ---
+
+## 📌4.2 MRI Segmentation with U-Net
+
+* Built a U-Net architecture for pixel-level brain MRI segmentation.
+
+* Encoder (downsampling) path captured hierarchical features.
+
+* Decoder (upsampling) path with skip connections restored fine spatial details.
+
+* Trained using a combination of Dice loss + Weighted Cross-Entropy to handle class imbalance.
+
+* Achieved ~0.73 mean Dice score across validation data.
+
+* Demonstrated inference on unseen MRI slices, overlaying predicted masks on input images.
 
 ## ✅ Outcomes
 
