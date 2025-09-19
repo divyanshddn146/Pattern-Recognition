@@ -1,7 +1,7 @@
 # Pattern Analysis – Lab Demonstration 2
 
-**Course:** Pattern Recognition (COMP3710/COMP4720 style)
-**Instructor:** Shekhar “Shakes” Chandra
+**Course:** Pattern Recognition (COMP3710)
+**Instructor:** Shekhar Chandra
 
 This lab explored **dimensionality reduction, classification, and deep learning pipelines** using **NumPy, TensorFlow, and PyTorch**. The tasks were divided into **four parts**:
 
